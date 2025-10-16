@@ -1,0 +1,5 @@
+f = open("week-01/demo.txt", "r")
+data = f.read()
+print(data)
+print(type(data))
+f.close()
